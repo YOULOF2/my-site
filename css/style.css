@@ -1,0 +1,175 @@
+/* ################## General ################## */
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Merriweather", serif;
+}
+
+.Gradient {
+  color: #fff;
+  background: linear-gradient(360deg,
+      #a0e9ff 30%,
+      #a162e8 50%,
+      #f093b0 70%,
+      #edca85 94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  color: #51c2d5;
+  font-weight: normal;
+  line-height: 2;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.stress {
+  text-decoration: underline;
+}
+
+h3 {
+  color: #11999e;
+}
+
+a {
+  color: #11999e;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 10%;
+  border-width: 1.25rem;
+  color: #dfe0df;
+  margin: 6.25rem auto;
+}
+
+p {
+  line-height: 2;
+}
+
+/* ################## top container ################## */
+.top-container {
+  background-color: #bbf1fa;
+  position: relative;
+  padding: 6.25rem;
+  padding-bottom: 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 9.375rem;
+  top: 1.875rem;
+  width: 12.5rem;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 15rem;
+  bottom: 18.125rem;
+  width: 12.5rem;
+}
+
+
+/* ################## middle container ################## */
+.profile {
+  padding: 3.125rem;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 6.25rem auto 6.25rem auto;
+  text-align: left;
+}
+
+.skill-row-img {
+  width: 30%;
+  float: left;
+  margin-right: 1.875rem;
+}
+
+.my-picture {
+  width: 15%;
+}
+
+.middle-container {
+  margin-top: 6.25rem;
+}
+
+.about-me {
+  width: 30%;
+  margin: auto;
+}
+
+/* ################## contact me ################## */
+.contact-me {
+  width: 40%;
+  margin: 6.25rem auto 6.25rem auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.envelope-gif {
+  float: right;
+  height: 18rem;
+}
+
+/* ################## Bottom container ################## */
+.bottom-container {
+  background-color: #66BFBF;
+  height: 3.75rem;
+
+}
+
+.copyright-text {
+  padding-top: 1.25rem;
+  color: #EAF6F6;
+  font-size: .9375rem;
+}
+
+h1 {
+  margin: 3.125rem auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #51c2d5;
+  /*
+  Dynamic syzing with rem and %
+  Can be inherited
+  ie. added up
+   */
+}
+
+.btn {
+  box-shadow: 0px 10px 14px -7px #276873;
+  background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  background-color: #599bb3;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3d768a;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color: #408c99;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+
+/* Note: Float is the opposite of clear. */
